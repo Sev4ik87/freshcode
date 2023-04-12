@@ -1,48 +1,134 @@
-.footer {
-
-  position:fixed;
-
-  bottom:0;
-
-  left:0;
-
-  width:100%;
-
-  height: 50px;
-
-  background-color: #060607;
-  
-  
+footer {
+  width: 100%;
+  height: 35px;
+  background-color: #1b4e70;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
 }
+main {
+  margin: 100px;
+}
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+h2::before {
+  content: "\2712";
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+p::first-line {
+  color: rgb(22, 8, 110);
+  font-size: 1.5rem;
+}
+
+img {
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+header {
+  width: 100%;
+  height: 35px;
+  background-color: #1b4e70;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+nav {
+  text-decoration-style: solid;
+  position: absolute;
+  bottom: -32px;
+  height: 60px;
+  line-height: 0px;
+  width: 100%;
+}
+.button {
+  color: #f5f2f2;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 2px;
+  text-decoration: none;
+  border: none;
+}
+.button:hover {
+  color: #d2d0d0;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 2px;
+  text-decoration: none;
+  border: none;
+}
+
 h2 {
   color: rgb(7, 5, 5);
 }
-p, li {
+p,
+li {
   color: rgb(37, 41, 37);
 }
-.footer-text-left{
+.footer-text-left {
   color: rgb(226, 230, 218);
 }
-.menu{
+.menu {
   color: rgb(210, 217, 217);
   font-weight: bold;
-  
 }
-a{
+a {
   color: #47382b;
   text-decoration: none !important;
   border: none !important;
-  }
-  .menu:hover {
-  
-    color:rgb(169, 179, 166);
-  
-  
-  }
-  a:hover {
-  
-    color:rgb(132, 142, 129);
-  
-  
-  }
-  
+}
+.menu:hover {
+  color: rgb(169, 179, 166);
+}
+a:hover {
+  color: rgb(132, 142, 129);
+}
+.textcols1 {
+  white-space: nowrap;
+  font-size: 0;
+}
+.textcols1-item {
+  white-space: normal;
+  display: inline-block;
+  width: 140px;
+  vertical-align: top;
+  background: #192948;
+
+  font-size: 15px;
+  color: rgb(232, 243, 252);
+
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.textcols1 .textcols1-item:last-child {
+  margin-right: 0;
+}
+footer {
+  width: 100%;
+  height: 85px;
+  background-color: #1f4259;
+  background: linear-gradient(#1f4259, #0c111c);
+  text-align: center;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
